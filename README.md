@@ -1,1 +1,1 @@
-## [Live demo](https://hello-world.lt/).
+### To view a live example, [click here](https://hello-world.lt/).
