@@ -1,0 +1,25 @@
+.yogaWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.yoga {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: start;
+    width: 736px;
+}
+
+@media (max-width: 500px) {
+    .yoga {
+        flex-direction: column;
+        justify-content: start;
+        width: 100%;
+    }
+
+}

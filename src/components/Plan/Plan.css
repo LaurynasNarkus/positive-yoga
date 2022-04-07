@@ -1,0 +1,142 @@
+.planWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+  height: auto;
+}
+
+.plan {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-radius: 16px;
+  padding: 15px;
+  border: 2px solid #FF9B4E;
+  cursor: pointer;
+  height: auto;
+}
+
+.planGrey{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-radius: 16px;
+  padding: 15px;
+  border: 2px solid #ebebeb;
+  cursor: pointer;
+  height: auto;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 100%;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: -0.4px;
+}
+
+.sold {
+  background-color: #FFE082;
+  border-radius: 6px;
+  line-height: 150%;
+  padding: 8px;
+  margin: 0px 8px;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  width: 100%;
+  font-size: 16px;
+  line-height: 32px;
+  align-items: flex-end;
+}
+
+.priceValue {
+  margin-right: 2px;
+  font-family: "SF-Heavy";
+  font-size: 28px;
+  line-height: 138%;
+}
+
+.periodicity {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.lineThroughPrice {
+  text-decoration: line-through;
+  margin-right: 5px;
+}
+
+.buttonCheck {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+}
+
+.buttonCheckGrey {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #ebebeb;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.imgCheckIconNotChecked {
+  display: none;
+}
+
+.imgCheckIcon {
+  width: 25px;
+  height: 25px;
+}
+
+@media (max-width: 500px) {
+  .plan {
+    width: 100%;
+  }
+  .planGrey {
+    width: 100%;
+  }
+
+
+}

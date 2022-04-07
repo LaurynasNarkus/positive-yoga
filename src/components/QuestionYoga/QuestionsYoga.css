@@ -1,0 +1,44 @@
+.questionYoga{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 85%;;
+}
+
+.questionYoga {
+    padding-left: 30px;
+}
+
+.questionsYogaTitle{
+    padding-left: 30px;
+    display: block;
+    font-size: 24px;
+    line-height: 140%;
+    font-family: "SF-Bold";
+
+}
+
+.questionsYogaList {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.questionYogaIcon {
+    margin-right: 8px;
+}
+
+.questionYoga p {
+    font-size: 18px;
+    margin: 10px;
+}
+
+.greenCheckIcon {
+    width: 20px;
+    height: 20px;
+}

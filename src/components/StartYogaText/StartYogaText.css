@@ -1,0 +1,16 @@
+.startYogaText {
+    font-family: "SF-Heavy";
+    font-size: 30px;
+    text-align: center;
+    line-height: 129%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  
+  @media (max-width: 500px)  {
+    .startYogaText {
+      text-align: start;
+      margin-left: 15px;
+      margin-bottom: 20px;
+    }
+  }

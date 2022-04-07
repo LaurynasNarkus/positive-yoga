@@ -1,0 +1,28 @@
+.introText {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 20px;
+    font-style: normal;
+  }
+  
+  .introTextBig {
+    font-family: "SF-Heavy";
+    font-size: 30px;
+    text-align: center;
+    line-height: 129%;
+    margin-bottom: 40px;
+  }
+
+  @media (max-width: 500px)  {
+    .introText {
+      margin: 10px 15px;
+      font-size: 18px;
+      text-align: start;
+    }
+    .introTextBig {
+      text-align: start;
+      margin-left: 15px;
+      margin-bottom: 0;
+    }
+  }

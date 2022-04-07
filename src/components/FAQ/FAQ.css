@@ -1,0 +1,27 @@
+.faq {
+  margin: 40px auto;
+  width: 736px;
+}
+
+.faqTitle {
+  text-align: center;
+  margin: 15px;
+  display: block;
+  font-size: 24px;
+  line-height: 140%;
+  font-family: "SF-Bold";
+}
+
+.faqQuestions {
+  width: 90%;
+}
+
+@media (max-width: 500px) {
+  .faq {
+    width: 100%;
+  }
+
+  .faqTitle {
+    text-align: start;
+  }
+}
