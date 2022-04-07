@@ -1,19 +1,19 @@
 @font-face {
   font-family: "SF-Regular";
   src: local("SF"),
-   url("./fonts/SF-Pro-Display-Regular.otf") format("opentype");
+   url("./assets/fonts/SF-Pro-Display-Regular.otf") format("opentype");
   }
 
 @font-face {
   font-family: "SF-Heavy";
   src: local("SF"),
-   url("./fonts/SF-Pro-Display-Heavy.otf") format("opentype");
+   url("./assets/fonts/SF-Pro-Display-Heavy.otf") format("opentype");
   }
 
   @font-face {
     font-family: "SF-Bold";
     src: local("SF"),
-     url("./fonts/SF-Pro-Display-Bold.otf") format("opentype");
+     url("./assets/fonts/SF-Pro-Display-Bold.otf") format("opentype");
     }
 
 body {
